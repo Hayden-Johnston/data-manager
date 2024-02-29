@@ -23,4 +23,5 @@ with open('db.txt', 'r') as file:
   file.close()
 ```
 
+#UML Diagram
 ![image](https://github.com/Hayden-Johnston/data-manager/assets/103093070/4bec1598-4a48-48eb-b7e6-45ccd5ecd7cb)
