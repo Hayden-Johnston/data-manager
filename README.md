@@ -1,5 +1,5 @@
 # Data Input:
-The data service checks every 1s for new data in input.txt and clears it when processed.
+The data service checks every 1 second for new data in input.txt and clears it when processed.\n
 To send data to the service, simply write the data to input.txt
 
 # Receiving Data:
