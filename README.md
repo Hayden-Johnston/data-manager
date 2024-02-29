@@ -4,10 +4,23 @@ To send data to the service, write the data to input.txt
 
 Python example
 ```
-with "input.txt" as file:
+with open('input.txt', 'w') as file:
+  data = "Hello World!"
+  file.write(data)
+  file.close()
 ```
 
 # Receiving Data:
 The output data is appended to db.txt which can be read to retrieve the input data.
+
+Python example
+```
+with open('db.txt', 'r') as file:
+  data = file.read()
+
+  # process data here ...
+
+  file.close()
+```
 
 ![image](https://github.com/Hayden-Johnston/data-manager/assets/103093070/4bec1598-4a48-48eb-b7e6-45ccd5ecd7cb)
