@@ -2,6 +2,11 @@
 The data service checks every 1 second for new data in input.txt and clears it when processed.<br>
 To send data to the service, write the data to input.txt
 
+Python example
+```
+with "input.txt" as file:
+```
+
 # Receiving Data:
 The output data is appended to db.txt which can be read to retrieve the input data.
 
