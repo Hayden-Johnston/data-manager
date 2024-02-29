@@ -10,7 +10,7 @@ score = {'1': 'score 1'}
 
 json_score = json.dumps(score)
 response = requests.post(url, json=json_score)
-return response
+return response.text
 ```
 
 # Receiving Data:
@@ -18,11 +18,11 @@ The stored data is accessed by a GET request to the url.
 
 Python example
 ```
-import requests, json
+import requests
 
 url = 'http://localhost:3000/'
 out = requests.get(url)
-return out
+return out.text
 ```
 
 # UML Diagram
